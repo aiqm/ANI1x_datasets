@@ -17,7 +17,7 @@ This repository contains the scripts needed to access the ANI-1x data sets.
  ... 
 
 
-#### If you use ANI-1s dataset please cite the following papers
+#### If you use ANI-1x dataset please cite the following papers
 
 - ANI-1x dataset
   
