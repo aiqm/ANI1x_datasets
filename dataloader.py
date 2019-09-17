@@ -14,12 +14,12 @@ def iter_data_buckets(h5filename, keys=['wb97x_dz.energy']):
         for grp in f.values():
             Nc = grp['coordinates'].shape[0]
             mask = np.ones(Nc, dtype=np.bool)
-            if not np.sum(mask):
-                continue
             data = dict((k, grp[k][()]) for k in keys)
             for k in keys:
                 v = data[k].reshape(Nc, -1)
                 mask = mask & ~np.isnan(v).any(axis=1)
+            if not np.sum(mask):
+                continue
             d = dict((k, data[k][mask]) for k in keys)
             d['atomic_numbers'] = grp['atomic_numbers'][()]
             d['coordinates'] = grp['coordinates'][()][mask]
