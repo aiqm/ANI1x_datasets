@@ -13,6 +13,11 @@ This repository contains the scripts needed to access the ANI-1x data sets.
 #### Repository content
 
  - Python reader for HDF5 dataset file
+ - Interactive plots comparing data distribution in QM9, ANI-1, ANI-1x and ANI-1ccx datasets in form of parametric t-SNE projection of the first later activation of ANI-1x model. 
+   - [Carbon](https://htmlpreview.github.io/?https://github.com/aiqm/ANI1x_datasets/blob/master/data_embedding/ani1x_embed_C_neighborType.html)
+   - [Hydrogen](https://htmlpreview.github.io/?https://github.com/aiqm/ANI1x_datasets/blob/master/data_embedding/ani1x_embed_H_neighborType.html)
+   - [Nitrogen](https://htmlpreview.github.io/?https://github.com/aiqm/ANI1x_datasets/blob/master/data_embedding/ani1x_embed_N_neighborType.html)
+   - [Oxygen](https://htmlpreview.github.io/?https://github.com/aiqm/ANI1x_datasets/blob/master/data_embedding/ani1x_embed_O_neighborType.html)
  
  ... 
 
