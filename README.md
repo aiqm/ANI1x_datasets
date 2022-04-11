@@ -1,5 +1,5 @@
 # ANI1x_datasets
-The ANI-1ccx and ANI-1x data sets, coupled-cluster and density functional theory properties for organic molecules.
+The ANI-1ccx and ANI-1x data sets, coupled-cluster and density functional theory properties for organic molecules. **Please downlod actual datafiles from FigShare first**: https://springernature.figshare.com/collections/The_ANI-1ccx_and_ANI-1x_data_sets_coupled-cluster_and_density_functional_theory_properties_for_molecules/4712477
 
 This repository contains the scripts needed to access the ANI-1x data sets.
 
